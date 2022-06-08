@@ -1,3 +1,6 @@
+from numpy import True_
+import Vuelos_Duoc as vd
+
 def printMenu():
   print("-"*40)
   print("Vuelos Duoc")
@@ -9,3 +12,4 @@ def printMenu():
   print("5.   Salir")
   print("-"*40)
   print("Ingrese el numero de la función que desea utilizar")
+
