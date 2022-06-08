@@ -1,8 +1,22 @@
 import numpy as np
 import Funciones_vuelos as fv
 sw = True
-asientosN = np.array([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30])
-asientosVIP = np.array([31,32,33,34,35,36,37,38,39,40,41,42])
+costoN = 78900
+costoVip = 240000
+
+asientosN = np.zeros([5,6])
+n = 0
+for f in range(5):
+  for c in range(6):
+    n = n + 1
+    asientosN[f][c] = n
+
+asientosVIP = np.zeros([2,6])
+n = 30
+for f in range(2):
+  for c in range(6):
+    n = n + 1
+    asientosVIP[f][c] = n
 
 while sw == True:
     fv.printMenu()
@@ -11,6 +25,14 @@ while sw == True:
         if op > 0 and op < 6:
             if op == 5:
                 sw = False
+
+            if op == 1:
+                fv.printAsientos()
+
+            if op == 3:
+                numAnu = input("Ingrese el numero de asiento que desea anular: ")
+                fv.anularAsi(numAnu)
+
             #Compra de asientos
             if op == 2:
                 bc = True
@@ -19,24 +41,57 @@ while sw == True:
                 rut = input("Ingrese su rut: ")
                 telefono = input("ingrese su telefono: ")
                 while bc == True:
-                    banco = input("¿Es cliente de bancoDuoc?(ingrese si o no)")
+                    banco = input("¿Es cliente de bancoDuoc?(ingrese si o no): ")
                     if banco == "si" or banco == "no":
                         bc = False
                     else:
                         print("Opcion no valida")
 
-                print("¿Que tipo de asiento desea\n1. Normal\n2.  VIP")
+                print("¿Que tipo de asiento desea\n1.   Normal\n2.  VIP")
                 while ato == True:
                     try:
                         asiento = int(input())
                         if asiento == 1 or asiento == 2:
                             ato = False
+
                             if asiento == 1:
+                                na = True
+                                
+                                if banco == "si":
+                                    print("El costo sera de: $"+ str(costoN - (costoN * 0.15)))
+                                else:
+                                    print("El costo sera de: $"+ str(costoN))
+
                                 print(asientosN)
-                                numasiento = input("Ingrese el numero del asiento que desea")
-                            if asiento == 2:
+                                numasiento = int(input("Ingrese el numero del asiento que desea: "))
+                                while na == True:
+                                    try:
+                                        if numasiento >= 1 and numasiento <= 30:
+                                            na = False
+                                            fv.comAsineto(numasiento,asiento,nombre,rut,telefono,banco)
+                                        else:
+                                            print("Asiento no valido")
+                                    except:
+                                        print("Asiento no valido")
+                            else:
+                                na = True
+
+                                if banco == "si":
+                                    print("El costo sera de: $"+ str(costoVip - (costoVip * 0.15)))
+                                else:
+                                    print("El costo sera de: $"+ str(costoVip))
+
                                 print(asientosVIP)
-                                numasiento = input("Ingrese el numero del asiento que desea")
+                                numasiento = int(input("Ingrese el numero del asiento que desea"))
+                                while na == True:
+                                    try:
+                                        if numasiento >= 31 and numasiento <= 42:
+                                            na = False
+                                            fv.comAsineto(numasiento,asiento,nombre,rut,telefono,banco)
+                                        else:
+                                            print("Asiento no valido")
+                                    except:
+                                        print("Asiento no valido")
                         else:
                             print("Opcion no valida")
                     except:
