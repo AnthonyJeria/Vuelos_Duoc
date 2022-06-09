@@ -29,9 +29,24 @@ while sw == True:
             if op == 1:
                 fv.printAsientos()
 
+            if op == 4:
+                asiMod = input("Ingrese el numero de asiento que desea modificar: ")
+                rutMod = input("Ingrese el numero de rut del pasajero que desea modificar")
+
+                fv.modDatos(asiMod, rutMod)
+
             if op == 3:
-                numAnu = input("Ingrese el numero de asiento que desea anular: ")
-                fv.anularAsi(numAnu)
+                tt = True
+                while tt == True:
+                    try:
+                        numAnu = input("Ingrese el numero de asiento que desea anular: ")
+                        if numAnu >= 1 and numAnu <= 42:
+                            tt = False
+                            fv.anularAsi(numAnu)
+                        else:
+                            print("Asiento no existente")
+                    except:
+                        print("Valor no valido")
 
             #Compra de asientos
             if op == 2:

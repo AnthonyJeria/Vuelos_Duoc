@@ -1,6 +1,49 @@
 from numpy import True_
 import Vuelos_Duoc as vd
 
+lista1 = []
+lista2 = []
+lista3 = []
+lista4 = []
+lista5 = []
+lista6 = []
+lista7 = []
+lista8 = []
+lista9 = []
+lista10 = []
+lista11 = []
+lista12 = []
+lista13 = []
+lista14 = []
+lista15 = []
+lista16 = []
+lista17 = []
+lista18 = []
+lista19 = []
+lista20 = []
+lista21 = []
+lista22 = []
+lista23 = []
+lista24 = []
+lista25 = []
+lista26 = []
+lista27 = []
+lista28 = []
+lista29 = []
+lista30 = []
+lista31 = []
+lista32 = []
+lista33 = []
+lista34 = []
+lista35 = []
+lista36 = []
+lista37 = []
+lista38 = []
+lista39 = []
+lista40 = []
+lista41 = []
+lista42 = []
+
 def printMenu():
   print("-"*40)
   print("Vuelos Duoc")
@@ -331,3 +374,936 @@ def anularAsi(numAsi):
 
   if numAsi == 42:
     lista42 = []
+
+def modDatos(asiMod, rutMod):
+
+  try:
+
+    if asiMod == 1:
+      print("-"*40)
+      print(lista1)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista1 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 2:
+      print("-"*40)
+      print(lista2)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista2 = [asiMod, rutMod, nom, tef,banc ]
+
+
+    if asiMod == 3:
+      print("-"*40)
+      print(lista3)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista3 = [asiMod, rutMod, nom, tef,banc ]
+      
+    if asiMod == 4:
+      print("-"*40)
+      print(lista4)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista4 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 5:
+      print("-"*40)
+      print(lista5)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista5 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 6:
+      print("-"*40)
+      print(lista6)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista6 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 7:
+      print("-"*40)
+      print(lista7)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista7 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 8:
+      print("-"*40)
+      print(lista8)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista8 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 9:
+      print("-"*40)
+      print(lista9)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista9 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 10:
+      print("-"*40)
+      print(lista10)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista10 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 11:
+      print("-"*40)
+      print(lista11)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista11 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 12:
+      print("-"*40)
+      print(lista12)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista12 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 13:
+      print("-"*40)
+      print(lista13)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista13 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 14:
+      print("-"*40)
+      print(lista14)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista14 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 15:
+      print("-"*40)
+      print(lista15)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista15 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 16:
+      print("-"*40)
+      print(lista16)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista16 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 17:
+      print("-"*40)
+      print(lista17)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista17 = [asiMod, rutMod, nom, tef,banc ]
+      
+    if asiMod == 18:
+      print("-"*40)
+      print(lista18)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista18 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 19:
+      print("-"*40)
+      print(lista19)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista19 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 20:
+      print("-"*40)
+      print(lista20)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista20 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 21:
+      print("-"*40)
+      print(lista21)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista21 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 22:
+      print("-"*40)
+      print(lista22)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista22 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 23:
+      print("-"*40)
+      print(lista23)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista23 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 24:
+      print("-"*40)
+      print(lista24)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista24 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 25:
+      print("-"*40)
+      print(lista25)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista25 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 26:
+      print("-"*40)
+      print(lista26)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista26 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 27:
+      print("-"*40)
+      print(lista27)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista27 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 28:
+      print("-"*40)
+      print(lista28)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista28 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 29:
+      print("-"*40)
+      print(lista29)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista29 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 30:
+      print("-"*40)
+      print(lista30)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista30 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 31:
+      print("-"*40)
+      print(lista31)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista31 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 32:
+      print("-"*40)
+      print(lista32)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista32 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 33:
+      print("-"*40)
+      print(lista33)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista33 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 34:
+      print("-"*40)
+      print(lista34)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista34 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 35:
+      print("-"*40)
+      print(lista35)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista35 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 36:
+      print("-"*40)
+      print(lista36)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista36 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 37:
+      print("-"*40)
+      print(lista37)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista37 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 38:
+      print("-"*40)
+      print(lista38)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista38 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 39:
+      print("-"*40)
+      print(lista39)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista39 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 40:
+      print("-"*40)
+      print(lista40)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista40 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 41:
+      print("-"*40)
+      print(lista41)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista41 = [asiMod, rutMod, nom, tef,banc ]
+
+    if asiMod == 42:
+      print("-"*40)
+      print(lista42)
+      print("-"*40)
+      
+      nom = input("Ingrese nuevo nombre: ")
+      tef = input("Ingrese nuevo numero telefonico: ")
+      ol = True
+      while ol == True:
+        bank = input("Es banco duoc o es un ser inferior(si o no)")
+        if bank == "si" or bank == "no":
+          ol = False
+        else:
+          print("Respuesta no valida")
+      
+      if bank == "si":
+        banc = "Banco Duoc"
+      else:
+        banc = "No banco Duoc"
+
+      lista42 = [asiMod, rutMod, nom, tef,banc ]
+
+  except:
+    print("error")
+  
